@@ -208,12 +208,12 @@
                             <div class="space-y-4 bg-[#F7F8F8] p-4 rounded-xl">
                                 <div class="flex justify-between">
                                     <p>Route</p>
-                                    <h4>Dhaka - Sylhet</h4>
+                                    <h4 class="font-bold">Dhaka - Sylhet</h4>
                                 </div>
                                 <hr class="border-2 border-dashed">
                                 <div class="flex justify-between">
                                     <p>Dep Timearture</p>
-                                    <h4>9:00 PM</h4>
+                                    <h4 class="font-bold">9:00 PM</h4>
                                 </div>
                                 <hr class="border-2 border-dashed">
                                 <div class="flex flex-col lg:flex-row justify-around gap-4">
@@ -245,7 +245,7 @@
             <div class="flex flex-col lg:grid lg:grid-cols-12 gap-2 bg-white lg:p-12 rounded-xl p-4">
                 <div class="space-y-6 col-span-7">
                     <div>
-                        <h3>Select Your Seat</h3>
+                        <h3 class="font-bold text-xl">Select Your Seat</h3>
                         <hr class="border-2 border-dashed mt-2 mb-2">
                         <div class="flex justify-between">
                             <div class="flex">
@@ -261,9 +261,27 @@
                         <hr class="border-2 border-dashed mt-2 mb-6">
                     </div>
                     <div class="w-full flex  justify-end">
-                        <button class="btn  font-bold text-sm rounded-lg bg-[#0307121A] px-7 py-1">
+                        <div class="flex items-center gap-3 flex-1">
+                            <span class="w-4 text-transparent">A</span>
+                            <div class="flex flex-row gap-10 lg:gap-20 items-center flex-1">
+                                <div class="flex gap-3 flex-1">
+                                    <button
+                                        class="btn bg-transparent text-transparent border-0 shadow-none hover:bg-transparent hover:cursor-default flex-1">A1</button>
+                                    <button
+                                        class="btn bg-transparent text-transparent border-0 shadow-none hover:bg-transparent hover:cursor-default flex-1">A2</button>
+                                </div>
+                                <div class="flex gap-3 flex-1">
+                                    <button
+                                        class="btn bg-transparent text-transparent border-0 shadow-none hover:bg-transparent hover:cursor-default flex-1">A2</button>
+                                    <button class="btn flex-1  font-bold text-sm rounded-lg bg-[#0307121A]">
+                                        <img src="images/Vector.png" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <button class="btn  font-bold text-sm rounded-lg bg-[#0307121A] px-7 py-1">
                             <img src="images/Vector.png" alt="">
-                        </button>
+                        </button> -->
                     </div>
                     <div class="flex flex-row justify-between gap-8 lg:gap-12">
                         <div class="space-y-4 flex-1">
@@ -400,8 +418,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:border-2 border-dashed lg:ml-4 lg:pl-4 border-r-0 border-b-0 border-t-0 col-span-5">
-                    <h3>Select Your Seat</h3>
+                <div
+                    class="lg:border-2 border-dashed lg:ml-4 lg:pl-4 border-r-0 border-b-0 border-t-0 lg:border-t-0 lg:border-b-0 lg:border-r-0 col-span-5 space-y-3">
+                    <h3 class="font-bold text-xl">Select Your Seat</h3>
                     <hr class="border-2 border-dashed mt-2 mb-2">
                     <div class="bg-[#F7F8F8] p-10 rounded-xl space-y-3">
                         <div class="grid grid-cols-3">
